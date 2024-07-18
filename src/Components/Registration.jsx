@@ -31,7 +31,7 @@ const Registration = () => {
         password: credentials.password,
       };
       const response = await fetch(
-        "https://mmt-json-server.vercel.app/register/1",
+        "https://mmt-json-server.vercel.app/register",
         {
           method: "PATCH",
           headers: {

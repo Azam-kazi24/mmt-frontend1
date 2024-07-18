@@ -67,6 +67,7 @@ export default function FormDialog() {
     try {
       const response = await fetch(
         `https://makemytripback.herokuapp.com/auth/otpverify?mobile_number=${mobile}`,
+        
         {
           method: "POST",
           headers: {
@@ -126,8 +127,8 @@ export default function FormDialog() {
     try {
       dispatch(loginRequest());
       const response = await fetch(
-       "https://mmt-json-server.vercel.app/auth/login",//*
-        // "mongodb://localhost:27017/Flights/"
+       "https://mmt-json-server.vercel.app/auth/login",
+        
         {
           method: "POST",
           headers: {

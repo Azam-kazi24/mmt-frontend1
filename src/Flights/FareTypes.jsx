@@ -26,15 +26,7 @@ const FareTypes = () => {
           <p>Double seat</p>
         </div>
       </div>
-      <div className={styles.div2}>
-        <div className={styles.second}>Trending Searches:</div>
-        <div className={styles.selectBox1}>
-          <p>Chennai to Hydrabad</p>
-        </div>
-        <div className={styles.selectBox1}>
-          <p>Delhi to Kolkata</p>
-        </div>
-      </div>
+     
     </div>
   );
 };
