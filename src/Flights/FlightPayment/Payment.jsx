@@ -41,7 +41,7 @@ export const Payment = () => {
     setSelect6(false);
   };
   const [wrong, setWrong] = useState(false);
-  let check = "shreevali@ybl";
+  let check = "azam@ybl";
   const handlePayment = async () => {
     if (UPI === check) {
       bookHotel();
